@@ -3,7 +3,7 @@ import "../styles/contact.css";
 
 function Contact() {
   return (
-    <div>
+    <div className="contact">
       <form action="https://formsubmit.co/Misterale22@gmail.com" method="POST">
         <input type="text" name="name" required placeholder="Your name" />
         <input type="email" name="email" required placeholder="Email address" />
